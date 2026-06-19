@@ -1,6 +1,6 @@
 @font-face {
     font-family: GameFont;
-    src: url("yasashisa.ttf");
+    src: url("NotoSansSC-Regular.otf");
 }
 
 .IIV::-webkit-media-controls-play-button,

@@ -1,0 +1,292 @@
+# glossary.yml - 统一翻译词典
+# 由预处理阶段 5 个子代理提取，主代理合并校验
+# 翻译时必须引用此词典，不得自创翻译
+
+人名:
+  Lily: 莉莉  # 精灵族少女，性格温柔爱唱歌，梦想成为大家庭的母亲
+  Athens: 雅典娜  # 精灵族少女，傲娇性格，表面冷淡内心温柔。变体: Athena
+  Haqua: 白华  # 精灵族少女，端庄贤淑，气质高雅，称呼主角为"Dear \N[1]"。变体: Hakua
+  Norn: 诺恩  # 精灵族少女，活泼好奇，喜欢恶作剧，称呼主角为"\N[1]-kun"
+  Sierra: 希尔拉  # 精灵族少女，知性好学，喜欢读书，称呼主角为"Mr. \N[1]"
+  Chell: 切尔  # 精灵族少女，开朗活泼，擅长跑步，与动物关系好。变体: Chel, Cheru
+  Toto: 托托  # 暗精灵少女，来自南方沙漠，性格直爽，Coco的姐姐
+  Coco: 可可  # 暗精灵少女，Toto的妹妹，天真可爱，称呼主角为"Onii-chan"。注意: 部分数据中name字段误标为"Here"（日文"ここ"的误译）
+  Prissy: 普莉西  # 精灵族少女，慵懒成熟，喜欢喝酒看星空
+  Milleia: 米蕾雅  # 精灵森林的长老，召唤主角来此世界的人，自称"妾身"。变体: Mileia, Mireia
+  Aiko: 爱子  # 赌博妖精NPC，在猜拳/赌局事件中出现
+  fairy: 妖精  # 多个NPC妖精的通用说话人标签，经营商店/幼儿园/酒吧等
+  spirit voice: 精灵之声  # 引导主角的神秘声音，给予目标和提示
+  player: 玩家  # 主角，被召唤到精灵世界的男性
+  Dog: 小狗  # 主角的宠物犬
+  "? ? ?": ？？？  # 未揭示身份时的通用说话人标签
+  Rabbit-san: 兔子  # 被提及的NPC角色
+
+地名:
+  Lost Forest: 迷失森林  # 精灵村外围的迷宫森林，有多个区域(A1-E3)。变体: Lost Forest E1, lost forest
+  elf forest: 精灵森林  # 精灵族居住的森林，故事主要舞台。变体: Elven Forest
+  Elf Village Central: 精灵村中央  # 精灵村中心区域
+  Elf Village East: 精灵村东部
+  Elf Village North: 精灵村北部
+  Elf Village South: 精灵村南部
+  Elf Village West: 精灵村西部
+  Elf House 1F: 精灵之家1楼  # 精灵族共同住宅
+  Elf House 2F: 精灵之家2楼
+  Lily's room: 莉莉的房间
+  Haqua's room: 白华的房间
+  Norn's room: 诺恩的房间
+  Sierra's room: 希尔拉的房间
+  Chell's room: 切尔的房间
+  Toto's room: 托托的房间
+  Coco's room: 可可的房间
+  Prissy's room: 普莉西的房间
+  Athens room: 雅典娜的房间
+  Milleia's room: 米蕾雅的房间
+  hero's house: 主角的家
+  nursery school: 幼儿园  # 妖精管理的精灵育儿所。变体: elf nursery school
+  Cafe: 咖啡馆  # 妖精经营的咖啡馆。变体: fairy cafe
+  General store: 杂货店
+  stable: 牧场
+  farm: 农场
+  flower garden: 花园
+  cave: 洞窟
+  Remains: 遗迹
+  summit: 山顶
+  lakeside: 湖畔
+  bath: 浴室
+  southern desert: 南方沙漠  # Toto和Coco的故乡。变体: desert town, desert village
+  desert town: 沙漠城镇
+  recollection: 回忆  # 回顾已解锁事件的功能房间
+
+道具:
+  # --- 种子 ---
+  potato seeds: 土豆种子
+  carrot seeds: 胡萝卜种子
+  onion seeds: 洋葱种子
+  pumpkin seeds: 南瓜种子
+  turnip seeds: 萝卜种子
+  strawberry seeds: 草莓种子
+  wheat seed: 小麦种子
+  tulip seeds: 郁金香种子
+  gerbera seeds: 非洲菊种子
+  anemone seeds: 银莲花种子
+  cosmos seed: 波斯菊种子
+  lily seeds: 百合种子
+  rose seeds: 玫瑰种子
+  # --- 农作物/食材 ---
+  potatoes: 土豆
+  Carrots: 胡萝卜
+  onion: 洋葱
+  pumpkin: 南瓜
+  mushroom: 蘑菇
+  mushrooms: 蘑菇
+  rock salt: 岩盐
+  spice: 香料
+  spices: 香料
+  wheat: 小麦
+  apple: 苹果
+  Apple: 苹果
+  mandarin orange: 蜜橘
+  cherry: 樱桃
+  Cherry: 樱桃
+  none: 梨  # 日文"梨(nashi)"的误译
+  thigh: 桃  # 日文"桃(momo)"的误译（momo亦有大腿之意）
+  milk: 牛奶
+  eggs: 鸡蛋
+  egg: 鸡蛋
+  # --- 矿石/宝石 ---
+  copper: 铜
+  silver: 银
+  Silver: 银
+  gold: 金
+  Money: 金  # 可能指金属Gold
+  ruby: 红宝石
+  Ruby: 红宝石
+  sapphire: 蓝宝石
+  emerald: 绿宝石
+  diamond: 钻石
+  # --- 蝴蝶 ---
+  white butterfly: 白蝴蝶
+  golden butterfly: 金蝴蝶
+  silver butterfly: 银色蝴蝶
+  rainbow butterfly: 彩虹蝴蝶
+  black butterfly: 黑色蝴蝶
+  blue butterfly: 蓝色蝴蝶
+  red butterfly: 红色蝴蝶
+  yellow butterfly: 黄色蝴蝶
+  # --- 鱼类 ---
+  ghost fish: 幽灵鱼
+  little fish: 小鱼
+  glitter fish: 闪光鱼
+  sparkling fish: 闪光鱼
+  spiny fish: 棘刺鱼
+  triangular fish: 三角鱼
+  perfectly round fish: 浑圆鱼
+  blister fish: 水泡鱼
+  big fish: 大鱼
+  Beanstalk fish: 豆茎鱼
+  Phantom fish: 幻影鱼
+  # --- 调料/料理 ---
+  potato soup: 土豆汤
+  carrot soup: 胡萝卜汤
+  onion soup: 洋葱汤
+  Pumpkin Soup: 南瓜汤
+  turnip soup: 萝卜汤
+  mushroom soup: 蘑菇汤
+  Apple cake: 苹果蛋糕
+  strawberry cake: 草莓蛋糕
+  momo cake: 桃子蛋糕
+  pear cake: 梨子蛋糕
+  cherry cake: 樱桃蛋糕
+  cream puff: 泡芙
+  pancake: 松饼
+  cookie: 饼干
+  Macarons: 马卡龙
+  donut: 甜甜圈
+  # --- 茶会饮品 ---
+  straight tee: 纯红茶
+  lemon tea: 柠檬茶
+  Milk tea: 奶茶
+  coffee: 咖啡
+  wine: 红酒
+  # --- 花束 ---
+  bouquet of tulips: 郁金香花束
+  bouquet of roses: 玫瑰花束
+  # --- 饰品 ---
+  copper bangles: 铜手镯
+  silver bangle: 银手镯
+  gold bangles: 金手镯
+  ruby necklace: 红宝石项链
+  sapphire necklace: 蓝宝石项链
+  emerald necklace: 绿宝石项链
+  diamond necklace: 钻石项链
+  # --- 特殊道具 ---
+  Ring of Oath: 誓约之戒  # 求婚道具。变体: vow ring, oath ring
+  vow ring: 誓约之戒
+  oath ring: 誓约之戒
+  Spirit Crown: 精灵之冠  # 用多余的誓约之戒兑换的稀有饰品
+  spirit crown: 精灵之冠
+  Crystal of Love: 爱之结晶  # 好感度达到上限时获得的角色专属道具。变体: love crystal
+  love crystal: 爱之结晶
+  Spirit Stones: 精灵石  # 女孩生育后获得的奖励货币。变体: spirit stone
+  spirit stone: 精灵石
+  fairy snack: 妖精的点心  # 用于约会和茶会的消耗品
+  elf potion: 精灵药水  # 可使女孩的生理周期变为危险日
+  # --- 工具 ---
+  bug net: 捕虫网  # 变体: insect net
+  insect net: 虫网
+  good bug net: 上等虫网
+  awesome bug net: 极品虫网
+  fishing rod: 钓鱼竿  # 变体: fishing rod
+  good fishing rod: 上等鱼竿
+  great fishing rod: 极品鱼竿
+  pickaxe: 十字镐
+  good pickaxe: 上等镐
+  awesome pickaxe: 极品镐
+  # --- 饲料 ---
+  chicken food: 鸡饲料  # 变体: chicken feed
+  chicken feed: 鸡饲料
+  cow food: 牛饲料
+  cow feed: 牛饲料
+  fertilizer: 肥料
+  # --- 精力饮品 ---
+  Hearty drink: 元气饮料  # 妖精酒吧出售，少量提升精液浓度
+  Gingin Drink: 精力饮料  # 妖精酒吧出售，中等提升精液浓度
+  Zetsurin Drink: 绝伦饮料  # 妖精酒吧出售，大幅提升精液浓度
+  # --- 功能道具 ---
+  spirit shoes: 精灵之鞋  # 可改变移动速度
+  spirit music box: 精灵音乐盒  # 可改变BGM
+  clothes: 衣服  # 可赠送给角色的换装道具。变体: costume
+  costume: 服装
+  perfume: 香水
+  Recipe 1: 食谱1
+  Recipe 2: 食谱2
+  bundle box: 打包箱  # 杂货店的批量出售功能
+
+技能:
+  costume change: 换装  # 各角色房间的换装功能
+  Random setting: 随机设定  # 换装系统的随机服装切换
+  harem sex: 后宫H  # 需要精液浓度达到"特浓"状态才能触发
+  scene recollection: 场景回想  # 自宅书架功能，可回顾已解锁的事件CG
+  rock-paper-scissors: 猜拳  # 与赌博妖精Aiko的迷你游戏
+  Lost Forest Expedition: 迷失森林远征队  # 委托妖精代为探索迷失森林收集素材
+
+种族/组织:
+  elves: 精灵族  # 本作主要种族，全员女性，面临灭绝危机。变体: Elf
+  Elf: 精灵族
+  dark elf: 暗精灵  # Toto和Coco所属的精灵亚种。变体: Dark Elf, Dark Elves
+  Dark Elf: 暗精灵
+  fairies: 妖精  # 与精灵共生的小型种族，提供各种支援功能。变体: fairy
+  fairy: 妖精
+  spirit: 精灵  # 引导主角的超自然存在
+  spirits: 精灵
+
+术语:
+  # --- 游戏机制 ---
+  affection value: 好感度  # 通过对话、送礼、H等行为提升的数值
+  Dear Level: 好感等级  # 好感度达到阈值后提升的等级。变体: affection level, Heart Level
+  Heart Level: 心等级
+  semen concentration: 精液浓度  # 主角的体力/精力属性，影响受孕率
+  special concentration: 特浓状态  # 精液浓度达到最大值的状态
+  implantation rate: 着床率  # 受孕概率
+  menstrual cycle: 生理周期  # 女孩的排卵周期
+  dangerous day: 危险日  # 生理周期中受孕率最高的日子
+  child-making: 造人  # 游戏核心活动
+  pregnancy: 怀孕
+  pregnant: 怀孕
+  # --- 事件类型 ---
+  etch: 刻印  # 角色亲热事件的通用术语
+  sleepover sex: 过夜交合  # 高好感度后解锁的留宿事件
+  Bride Etch: 新娘刻印
+  Bath Etch: 浴室刻印
+  Belly Etch: 孕肚刻印
+  Bote: 孕肚  # 日语"ボテ"的罗马字，与Belly Etch组合表示孕期亲热事件
+  harem: 后宫  # 与所有女孩结婚的路线
+  feast: 宴会  # 需要3个妖精的点心举办
+  date: 约会
+  tea party: 茶会
+  # --- 角色关系 ---
+  concubine: 妾身  # 米蕾亚的自称。变体: 侧室
+  wife: 妻子
+  bride: 新娘
+  elder: 长老  # 米蕾亚的职务头衔
+  savior: 救世主  # 精灵族对主角的称呼。变体: summoned savior, savior of this world
+  summoned savior: 被召唤的救世主
+  Lord: 大人  # 米蕾亚对主角的尊称。变体: 主上
+  Onii-chan: 哥哥  # 可可对主角的称呼
+  # --- 游戏世界 ---
+  extinction: 灭绝  # 精灵族面临的危机
+  prosperity of the elves: 精灵族的繁荣  # 游戏核心目标
+  different world: 异世界  # 主角被召唤前的世界。变体: another world
+  another world: 异世界
+  creature: 生物  # 精灵族对主角（人类男性）的称呼
+  # --- 抽奖系统 ---
+  cat lottery: 猫咪抽奖
+  dog lottery: 狗狗抽奖
+  ore lottery: 矿石抽奖
+  insect lottery: 昆虫抽奖
+  fish lottery: 鱼类抽奖
+  date discovery lottery: 约会发现抽奖
+  # --- 其他 ---
+  recollection: 回忆模式  # 回顾已解锁事件的功能
+  costume: 服装
+  Valuables: 贵重品  # 游戏菜单中的分类标签
+  G: Ｇ  # 游戏内货币单位
+  mini game: 小游戏
+  heart balloon: 心形气球  # 可求婚的女孩头上显示的视觉标识
+  bundle box: 打包箱
+  game purpose: 游戏目的
+  get along with girls: 与女孩们搞好关系
+  impregnate a girl: 让女孩怀孕
+  collect materials: 收集素材
+
+控制码映射（不可翻译，仅记录）:
+  - \c[N]  # 改变文字颜色
+  - \i[N]  # 显示图标
+  - \n[N]  # 显示角色名
+  - \{  # 放大文字
+  - \}  # 缩小文字
+  - \|  # 等待
+  - \G  # 显示货币单位
+  - \$  # 打开金币窗口
+  - \V[N]  # 显示变量值
+  - \s[N]  # 播放SE
